@@ -1,4 +1,5 @@
-The release version of EAS Browser (Windows) is available for download at this address.
+The release version of EAS Browser (Windows) is available for download at this address:
+   http://www.mediafire.com/file/et2qzl68k1dikfe/EAS_Browser__v1.0_%28Windows%29.zip
 To launch the program just execute ”EAS Browser v1.0.exe”.
 The folder where is located the executable contains all the plugins from QT and all the libraries necessary for the execute file to work.
 You don't need to install any version of QT to be able to launch the release compiled version.
