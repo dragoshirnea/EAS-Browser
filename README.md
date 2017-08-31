@@ -9,4 +9,4 @@ EAS Browser Display was made in a 3 months summer project by the student Hîrnea
 
 # Get Started
 
-To download EAS Browser Display, just folow the instructions from 
+To download EAS Browser Display, just folow the instructions from Windows version Download file. All the source files are also available to download. 
