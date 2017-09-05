@@ -9,4 +9,6 @@ The EAS Browser Display was made within a 3 months long summer project in 2017 b
 
 # Get Started
 
-To download EAS Browser Display, just folow the instructions from Windows version Download file. All the source files are also available to download. 
+To download EAS Browser Display, just folow the instructions from Windows version Download file.
+All the source files are also available to download. The project can work on any system that runs Qt Creator version 4.3.1.
+You will also need to download any compiler available in order to run Qt.
