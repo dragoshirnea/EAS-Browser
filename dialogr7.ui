@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogr7</class>
+ <widget class="QDialog" name="Dialogr7">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Referințe</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="filles.qrc">
+    <normaloff>:/iss_logo.png</normaloff>:/iss_logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialogr7 {
+background-color: url transparent;
+border-image: url(:bk1.jpg);
+background: none;
+border:  none;
+background-repeat: none;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>131</width>
+       <height>71</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>131</width>
+       <height>71</height>
+      </size>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Unicode MS</family>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Ecuații</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/eq.JPG&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="minimumSize">
+      <size>
+       <width>171</width>
+       <height>71</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>171</width>
+       <height>71</height>
+      </size>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Unicode MS</family>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Referințe</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(255, 255, 250,0)</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:14pt; color:#ffffff;&quot;&gt;Cărți:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;B.1 Cosmic Rays and Particle Physics, Thomas K. Gaisser&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;B.2 High Energy Cosmic Rays, Todor Stanev&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;B.3 High Energy Astrophysics, Malcom S. Longair&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;B.4 Astroparticle Physics, Claus Grupen&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:14pt; color:#ffffff;&quot;&gt;Articole:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.1 &lt;/span&gt;&lt;a href=&quot;https://arxiv.org/abs/astro-ph/0309622&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;T. Huege &amp;amp; H Falcke, Radio emission, A&amp;amp;A 412, 19–34 (2003)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.2 &lt;/span&gt;&lt;a href=&quot;https://www.astro.ru.nl/lopes/_media/publications/isar_phd_thesis.pdf&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Isar, PhD Thesis, Karlsruhe Institute of Technology (KIT)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;A.3 &lt;/span&gt;&lt;a href=&quot;https://arxiv.org/pdf/astro-ph/0411260.pdf&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Pierog, T. et al, Nucl. Phys. Proc. Suppl.151 (2006) 159&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/astro-ph/0411260.pdf&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;A.4 &lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://arxiv.org/pdf/1607.08781.pdf&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Frank G. Schroder, Elsevier, Prog. in Part. and Nucl. Phys 93 (2017) 1-68&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.5 &lt;/span&gt;&lt;a href=&quot;https://arxiv.org/pdf/astro-ph/0606564.pdf&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Bergmann, T. et al., Astropart. Phys. 26 (2007) 420&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.6 &lt;/span&gt;&lt;a href=&quot;https://www.auger.org/index.php/science/journal-articles&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Auger articles&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.7 &lt;/span&gt;&lt;a href=&quot;https://arxiv.org/pdf/1604.03637.pdf&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;The Pierre Auger Observatory Upgrades&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.8 &lt;/span&gt;&lt;a href=&quot;https://www.astro.ru.nl/lopes/_media/publications/aph0505383.pdf&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Nature 435, 313-316, 2005&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.9 &lt;/span&gt;&lt;a href=&quot;https://www.astro.ru.nl/lopes/publications&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;LOPES articles&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;A.10 &lt;/span&gt;&lt;a href=&quot;https://arxiv.org/pdf/1504.06696.pdf&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Haungs, A. et al. J.Phys.Conf.Ser. 632 (2015) no.1, 012011&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:14pt; color:#ffffff;&quot;&gt;Site-uri:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;S.1 &lt;/span&gt;&lt;a href=&quot;https://www.auger.org/&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Pierre Auger Observatory&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;S.2 &lt;/span&gt;&lt;a href=&quot;http://www2.spacescience.ro/&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Institute of Space Science&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;S.3 &lt;/span&gt;&lt;a href=&quot;https://github.com/xinluh/lopes-eventbrowser&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;LOPES event browser&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;S.4 &lt;/span&gt;&lt;a href=&quot;https://youtu.be/4p47RBPiOCo&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;Youtube&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:11pt; color:#ffffff;&quot;&gt;    &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:11pt; color:#ffffff;&quot;&gt;     &lt;/span&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:14pt; color:#ffffff;&quot;&gt;Programe:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:11pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;P.1 &lt;/span&gt;&lt;a href=&quot;http://www.timhuege.de/coreas/&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;COREAS - COrsika simulations of Radio Emission from extensive Air Showers&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;P.2 &lt;/span&gt;&lt;a href=&quot;https://www.ikp.kit.edu/corsika/&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;CORSIKA – Cosmic Ray Simulations for KAscade&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; color:#ffffff;&quot;&gt;P.3 &lt;/span&gt;&lt;a href=&quot;https://root.cern.ch/&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu'; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;ROOT Data Analysis Framework&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>141</width>
+       <height>91</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>141</width>
+       <height>91</height>
+      </size>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Unicode MS</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton {
+background-color: url transparent;
+border-image: url(:un3.png);
+background: none;
+border:  none;
+background-repeat: none;
+}
+#pushButton:hover
+{
+border-image: url(:un1.png);
+}
+#pushButton:pressed
+{
+border-image: url(:un2.png);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Închide</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="filles.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialogr7</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>700</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>185</x>
+     <y>700</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

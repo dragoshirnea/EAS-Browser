@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogr5</class>
+ <widget class="QDialog" name="Dialogr5">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Introducere</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="filles.qrc">
+    <normaloff>:/iss_logo.png</normaloff>:/iss_logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialogr5 {
+background-color: url transparent;
+border-image: url(:bk1.jpg);
+background: none;
+border:  none;
+background-repeat: none;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>595</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>591</width>
+       <height>51</height>
+      </size>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>   Jerbe de particule - Introducere</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(255, 255, 255, 10)</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-2287</y>
+        <width>981</width>
+        <height>2887</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="minimumSize">
+          <size>
+           <width>950</width>
+           <height>950</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>950</width>
+           <height>950</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:11pt; color:#ffffff;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;Jerbele de particule&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt; sunt produse atunci când raze cosmice de energie foarte înaltă penetrează atmosfera Pământului &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i interac&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ionează cu nuclee în atmosfera superioară, generând astfel o cascadă de particule secundare. Particulele secundare interac&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ionează de asemenea cu constituen&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i atmosferici &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i ini&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ializează cascade la rândul lor.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS'; font-size:14pt; color:#ffffff;&quot;&gt;        &lt;/span&gt;&lt;img src=&quot;:/KCDC-EAS.png&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Arial Unicode MS'; font-size:14pt; color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#000000;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;Componenta Electromagnetică&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS'; font-size:14pt; color:#ffffff;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;Componenta electromagnetică este alcătuită din fotoni &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i electroni. La sol, majoritatea particulelor sunt fotoni, urma&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i de electroni &lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i muoni. La energii înalte fotonii interac&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ionează cu materia în principal prin producerea de perechi. În acest fenomen un foton interac&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ionează cu un nucleu greu pentru a forma o perche electron – pozitron.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGraphicsView" name="graphicsView">
+         <property name="minimumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_3">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>105</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;   La energii relativ scăzute principalele moduri de interacțiune a fotonilor cu materia este efectul fotoelectric și împrăștierea Compton. Efectul fotoelectric are loc atunci când materia emite electroni ca urmare a interacțiunii cu fotonii.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGraphicsView" name="graphicsView_2">
+         <property name="minimumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;   Împrăștierea Compton are loc atunci când un foton incident este deviat de la traiectoria inițială prin ciocnire elastică cu un electron.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGraphicsView" name="graphicsView_3">
+         <property name="minimumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="minimumSize">
+          <size>
+           <width>950</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>950</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Button">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Button">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="WindowText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>120</red>
+               <green>120</green>
+               <blue>120</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Button">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window">
+             <brush brushstyle="SolidPattern">
+              <color alpha="10">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>  Bremsstrahlung apare atunci când electronii și pozitronii la energii foarte mari emit fotoni.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGraphicsView" name="graphicsView_4">
+         <property name="minimumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>405</width>
+           <height>305</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_2">
+         <property name="minimumSize">
+          <size>
+           <width>950</width>
+           <height>440</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>950</width>
+           <height>440</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;   Componenta mezonică&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;Aceasta este a doua categorie de interac&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ii care au loc într-o jerbă de particule. Cele mai importante particule sunt muonii, a treia cea mai numeroasă categorie de particule care ajung la sol. Mezonii sunt particule hadronice subatomice compu&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i dintr-un quark &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i un antiquark, lega&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i impreună de interac&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ia tare.&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;Sunt foarte mul&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i mezoni care nu au o durată de via&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ă prea lungă; ei se dezintegrează rapid în cei mai u&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ori dintre mezoni:&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;K&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff; vertical-align:super;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt; ,K&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff; vertical-align:super;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;, K&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff; vertical-align:super;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt; (u&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ori) &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i π&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff; vertical-align:super;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt; π&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff; vertical-align:super;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt; π&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff; vertical-align:super;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i mai u&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ori)&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt;   Componenta Nucleonică&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;-este formată din protoni &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i neutroni; acestea sunt cele mai pu&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ine particule ce ajung la sol, excep&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;ia&lt;/span&gt;&lt;span style=&quot; font-size:8pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt; fiind neutronii care sunt neutrii din punct de vedere electric &lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;i pot trece u&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; color:#ffffff;&quot;&gt;or prin atmosferă ajungând la sol.&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="minimumSize">
+      <size>
+       <width>131</width>
+       <height>81</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>131</width>
+       <height>81</height>
+      </size>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Unicode MS</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#pushButton {
+background-color: url transparent;
+border-image: url(:un3.png);
+background: none;
+border:  none;
+background-repeat: none;
+}
+#pushButton:hover
+{
+border-image: url(:un1.png);
+}
+#pushButton:pressed
+{
+border-image: url(:un2.png);
+}</string>
+     </property>
+     <property name="text">
+      <string>Închide</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="filles.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialogr5</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>101</x>
+     <y>695</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>711</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

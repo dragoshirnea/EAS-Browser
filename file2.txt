@@ -1,0 +1,2 @@
+﻿       In the displayed graph one can observe the dependency of the total number of charged particles developed in an air shower [3], as function of the atmospheric depth for different primary energies.
+       The total number of particles generated in the air showers grows with the primary cosmic ray energy.
