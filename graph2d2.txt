@@ -1,0 +1,3 @@
+﻿        In the displayed graph one can observe a comparative representation of the East-West polarization between v x B and v x (v x B) cross product vectors.
+        In the v x B case, the polarization [8.a] presents a maximum on the South-North arrival direction of the EAS (270 degrees azimuth) and zenith of 40 degrees.
+        It can be noticed that v x (v x B) [9.a] has a complementary contribution to the v x B amplitude, having additional emission from showers coming from N-E, N-W, S-W, S-E directions.

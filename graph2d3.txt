@@ -1,0 +1,3 @@
+﻿        In the displayed graph one can observe a comparative representation of the Vertical polarization between v x B vector and v x (v x B) vector.
+        For v x B vector Vertical polarization [8.c] has a similar behavior as North-South polarization, presenting two maximum points at 0 degrees and 180 degrees, zenith of 80 degrees.
+        It can be noticed that v x (v x B) [9.c] has a complementary contribution to the v x B amplitude, having additional emission from showers coming from N-S directions.

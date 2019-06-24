@@ -1,0 +1,3 @@
+﻿        In the displayed graph one can observe a comparative representation of the North-South polarization between v x B and v x (v x B) cross product vectors.
+        In v x B case, the NS polarization [8.b] presents maximum points at 0 and 180 degrees, and it grows with the zenith angle.
+        It can be noticed that v x (v x B) [9.b] has a complementary contribution to the v x B amplitude, having additional emission from showers coming from N-S directions.
