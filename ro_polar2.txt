@@ -1,0 +1,2 @@
+﻿        Graficul polar alăturat este o reprezentare a vectorului v x B, proiectat pe direcția de polarizare Est-Vest [8.a], în funcție de azimut, pentru diferite unghiuri zenit, culoarea fiind indicator al amplitudinii.
+	Pentru locația Observatorului Pierre Auger (câmp magnetic caracterizat de azimut = 90 de grade și zenith = 54 de grade), canalul de polarizare Est-Vest are un maxim înregistrat pentru jerbe ce vin în mare parte dinspre direcția sudică, opus câmpului Geomagnetic și pentru un zenith de aproximativ 40 de grade.

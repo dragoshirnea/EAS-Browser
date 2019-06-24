@@ -1,0 +1,2 @@
+﻿        The polar graph displayed it’s a representation of Vertical projection of v x B vector [8.b], as function of azimuth for different zenith angles, color coded by amplitude.
+        For the location of the Pierre Auger Observatory (B-field azimuth = 90 degrees, zenith = 54 degrees), the Vertical polarization channel has maximum amplitude registered for showers coming from East and Vest directions.

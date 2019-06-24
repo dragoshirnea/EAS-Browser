@@ -1,0 +1,2 @@
+﻿        Graficul polar alăturat este o reprezentare a vectorului v x B, proiectat pe direcția de polarizare Nord-Sud [8.b], în funcție de azimut, pentru diferite unghiuri zenit, culoarea fiind indicator al amplitudinii.
+	Pentru locația Observatorului Pierre Auger (câmp magnetic caracterizat de azimut = 90 de grade și zenith = 54 de grade), canalul de polarizare Nord-Sud înregistrează amplitudini maxime în cazul jerbelor înclinate (zenit > 60 de grade) ce se propagă pe direcția Est-Vest și amplitudini minime pentru jerbe ce se propagă dinspre Nord și Sud. 

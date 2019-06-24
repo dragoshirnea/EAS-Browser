@@ -1,0 +1,2 @@
+﻿     If we rotate the coordinate axes [11] of the shower with the polarization angle [10], described in the “Geometry” section, VXB vector will be positioned along the  x-axis, which means that all the Geomagnetic contribution will be detected in the East-West polarization channel. This process can be observed on the left graph where X’ and Y’ are the new axes after rotation.
+     Because VXB model describes only the Geomagnetic effect, after the rotation of the axis the signal on North-South polarization channel will be always zero.

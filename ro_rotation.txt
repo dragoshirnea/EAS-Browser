@@ -1,0 +1,1 @@
+﻿     Dacă rotim axele de coordonate ale vectorului v x B (axa X - proiecția pe EW, axa Y - proiecția pe NS [11]) cu unghiul de polarizare [10] descris in secțiunea "geometrie", contribuția efectului Geomagnetic se anulează în canalul de polarizare NS.

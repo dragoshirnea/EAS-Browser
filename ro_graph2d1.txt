@@ -1,0 +1,3 @@
+﻿     În graficul alăturat se poate observa o reprezentare comparativă, pentru polarizarea Nord-Sud‚ a vectorului v x B și a vectorului v x (v x B).
+     În cazul VXB polarizarea [8.b] prezintă maxime la 0 și 180 de grade azimut, crescând odată cu gradul de înclinare al jerbelor.
+     Se poate observa faptul că v x (v x B) [9.b] are o contribuție suplimentară la amplitudinea v X B, aducând o emisie adițională pentru direcția N-S.

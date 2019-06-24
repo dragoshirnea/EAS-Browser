@@ -1,0 +1,3 @@
+﻿     În graficul alăturat se poate observa o reprezentare comparativă, pentru polarizarea Est-Vest, a vectorului v x B și a vectorului v x (v x B).
+     Vectorul VXB [8.a] prezintă un maxim pentru direcția de propagare a jerbelor Sud-Nord (unghi azimut 270 grade) și zenit 40 grade.
+     Se poate observa faptul că v x (v x B) [9.a] are o contribuție suplimentară la amplitudinea v x B pentru jerbele ce se propagă dinspre direcțiile N-E, N-W, S-W, S-E.
