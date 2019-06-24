@@ -1,0 +1,9 @@
+﻿The EAS geometry [A.2] is parameterized by two angles:
+- zenith (theta), which gives the inclination of the showers;
+- azimuth (phi), which indicates the arrival direction of the shower.
+In the radio emission studies of EAS, additional two angles are of interest:
+- geomagnetic angle (alpha) [7], the angle between the shower axis and the Geomagnetic field;
+- polarization angle [10], the angle between the projection of the v x B vector in the detection plane and the X axis.
+
+    *Convention
+    In EAS geometry studies many conventions for the definition of the angles are used. In the examples included in this application, azimuth angle of 0 degrees describes an EAS coming from East to West and it grows in trigonometric direction: 90 degrees (North), 180 degrees (West), 270 degrees (South).

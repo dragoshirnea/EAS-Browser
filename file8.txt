@@ -1,0 +1,4 @@
+﻿    In the graph displayed, one can observe multiple representations of the dependencies between the four angles described in the section above.
+    The Earth's magnetic field parameters correspond to the Pierre Auger Observatory location.
+    It can be noticed that for low zenith angle values ( 10 - 50 degrees ), the geomagnetic [7] and polarization angles [9] have minimum variation.
+    Geomagnetic angle (the top graph) shows a maximum point at 270 degrees azimuth ( S-N EAS propagation) and a minimum at 90 degrees ( N-S EAS propagation). At the geomagnetic angle minimum, in report to the azimuth angle, the polarization angle displays very large fluctuations (middle graph), and in the maximum zone it tends to the same value of 180 degrees, regardless of the zenith angle. One can also observe a zenith feature correlation between geomagnetic angle and the polarization angle at a maximum of 180 degrees (the bottom graph).

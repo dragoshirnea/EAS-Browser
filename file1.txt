@@ -1,0 +1,2 @@
+﻿       The shower age parameter [2] describes the stages of evolution of the extensive air showers (EASs). An EAS commences at s = 0, builds its maximum development at s = 1, and then declines over the range s = 1 – 3.
+       As we can observe in the graph, at lower primary energies the shower age grows faster, this behavior is showing us that less energetically air showers have a weaker development, reaching their maximum at an higher altitude.

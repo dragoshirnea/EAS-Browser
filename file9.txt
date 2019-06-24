@@ -1,0 +1,1 @@
+﻿      In EAS geometry studies many conventions for the definition of the angles are used. In the examples included in this application, azimuth angle of 0 degrees describes an EAS coming from East to West and it grows in trigonometric direction: 90 degrees -> North - South, 180 degrees -> West - East, 270 -> South - North.
