@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogr4</class>
+ <widget class="QDialog" name="Dialogr4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>951</width>
+    <height>628</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Detecție</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="filles.qrc">
+    <normaloff>:/iss_logo.png</normaloff>:/iss_logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialogr4 {
+background-color: url transparent;
+border-image: url(:bk1.jpg);
+background: none;
+border:  none;
+background-repeat: none;
+}</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>931</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255, 255, 255, 10)</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://www.auger.org/index.php/observatory/auger-hybrid-detector&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline; color:#ffffff;&quot;&gt;Tancuri cu apă de suprafață*&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;-măsoară particulele secundare dintr-o jerbă ce &lt;/span&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLcxu2oC7JDOiZrz5Rp4yzfuBxikISs7Ol&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;penetrează tancul*&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;, prin interac&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ia acestora cu apa &lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;i emisia de radia&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ie Cherenkov, călătorind cu o viteză mai mare decât viteza luminii în apă&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;https://www.auger.org/index.php/observatory/heat&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline; color:#ffffff;&quot;&gt;Detectori de fluorescență*&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;-urmăre&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;te dezvoltarea unei jerbe de particule observând radia&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ia UV emisă de particulele secundare încărcate electric în urma excitării moleculelor de nitrogen din atmosfera Pământului&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://www.auger.org/index.php/news/latest-news/project-aera-auger-engineering-radio-array&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline; color:#ffffff;&quot;&gt;Stații radio*&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;-înregistrează &lt;/span&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EJlkDXc1wuw&amp;amp;ytbChannel=Institutul%20de%20Stiinte%20Spatiale&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;semnalele radio*&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt; emise de către particulele încărcate electric dintr-o jerbă, în timp ce sunt deviate de câmpul magnetic al Pământului&lt;/span&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; font-weight:600; text-decoration: underline; color:#ffffff;&quot;&gt;Monitorizarea condi&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:14pt; font-weight:600; text-decoration: underline; color:#ffffff;&quot;&gt;iilor atmosferice ca suport pentru detectori&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;-folose&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ș&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;te o varietate de &lt;/span&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xcuZ239zHYs&amp;amp;t=1s&amp;amp;ytbChannel=Institutul%20de%20Stiinte%20Spatiale&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#ffffff;&quot;&gt;sisteme standard*&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt; pentru a observa condi&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;iile atmosferice în zona de detec&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ie, precum presiune, temperatură, umiditate, vânt, precipita&lt;/span&gt;&lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ț&lt;/span&gt;&lt;span style=&quot; font-family:'Arial Unicode MS,sans-serif'; font-size:12pt; color:#ffffff;&quot;&gt;ii, câmp electric, nori, aerosoli, etc.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>911</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>18</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Metode de detecție folosite la Observatorul Pierre Auger</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>550</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Unicode MS</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton {
+background-color: url transparent;
+border-image: url(:un3.png);
+background: none;
+border:  none;
+background-repeat: none;
+}
+#pushButton:hover
+{
+border-image: url(:un1.png);
+}
+#pushButton:pressed
+{
+border-image: url(:un2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string>Închide</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="filles.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialogr4</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>114</x>
+     <y>577</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>252</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

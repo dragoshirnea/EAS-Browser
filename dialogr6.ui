@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogr6</class>
+ <widget class="QDialog" name="Dialogr6">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1156</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1156</width>
+    <height>648</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1156</width>
+    <height>648</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Credite</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="filles.qrc">
+    <normaloff>:/iss_logo.png</normaloff>:/iss_logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialogr6 {
+background-color: url transparent;
+border-image: url(:bk1.jpg);
+background: none;
+border:  none;
+background-repeat: none;
+}
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>141</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Credite</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>1081</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(255, 255, 255, 10)</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:16pt; color:#ffffff;&quot;&gt;Copyright, termeni și condiții&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:16pt; color:#ffffff;&quot;&gt;-aceasta este o versiune pre-compilată, gratuită&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:16pt; color:#ffffff;&quot;&gt;-această aplicație vine în suportul educației și mediatizării științifice&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:16pt; color:#ffffff;&quot;&gt;-pentru a obține codul sursă, vă rugăm să scrieți autorilor cerând acces la ”EAS- browser display”, menționând ocupația și scopul utilizării&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:16pt; color:#ffffff;&quot;&gt;-a se menționa aplicația făcând referire la autori, pagina web a codului sursă și numărul versiunii&lt;/span&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Arial,sans-serif'; font-size:16pt; color:#ffffff;&quot;&gt;-informați autorii despre orice eroare și/sau incoerență&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>550</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton {
+background-color: url transparent;
+border-image: url(:un3.png);
+background: none;
+border:  none;
+background-repeat: none;
+}
+#pushButton:hover
+{
+border-image: url(:un1.png);
+}
+#pushButton:pressed
+{
+border-image: url(:un2.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Închide</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="filles.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialogr6</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>990</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>901</x>
+     <y>572</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
